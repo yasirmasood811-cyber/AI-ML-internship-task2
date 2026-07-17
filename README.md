@@ -211,5 +211,45 @@ The notebook generates:
 
 ---
 
+# News Topic Classifier Using BERT
+
+## Overview
+
+This project focuses on classifying news headlines into four categories: World, Sports, Business, and Sci/Tech using the BERT (bert-base-uncased) transformer model. Instead of training a model from scratch, a pre-trained BERT model is fine-tuned on the AG News dataset to improve classification performance. The project also includes a simple Gradio interface that allows users to enter a news headline and receive its predicted category in real time.
+
+## Dataset
+
+The project uses the AG News Dataset from the Hugging Face Datasets library. It contains 120,000 training samples and 7,600 testing samples across four news categories:
+
+World
+Sports
+Business
+Sci/Tech
+
+## Technologies Used
+Python
+Hugging Face Transformers
+Hugging Face Datasets
+BERT (bert-base-uncased)
+NumPy
+Evaluate
+Gradio
+Workflow
+Load the AG News dataset.
+Tokenize the news headlines using the BERT tokenizer.
+Fine-tune the pre-trained bert-base-uncased model.
+Evaluate the model using Accuracy and Weighted F1-score.
+Save the trained model and deploy it with Gradio for live predictions.
+
+## Learning Outcomes
+Natural Language Processing with Transformers
+Transfer Learning using BERT
+Text Classification
+Model Evaluation using Accuracy and F1-score
+Deployment of an NLP model with Gradio
+
+## Conclusion
+
+This project demonstrates how transfer learning can be applied to build an accurate news topic classifier using BERT. Fine-tuning a pre-trained transformer model significantly improves text classification performance while reducing training time. The Gradio interface provides an easy way to interact with the model and classify news headlines in real time.
 ## Author
 Yasir Masood
