@@ -1,5 +1,5 @@
 # AI-ML-internship-task2
-# Customer Churn Prediction using Scikit-learn Pipeline
+# Task 2:Customer Churn Prediction using Scikit-learn Pipeline
 
 ## Project Overview
 
@@ -211,7 +211,7 @@ The notebook generates:
 
 ---
 
-# News Topic Classifier Using BERT
+# Task 1:News Topic Classifier Using BERT
 
 ## Overview
 
